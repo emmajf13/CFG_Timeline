@@ -1,0 +1,5 @@
+<style>
+body{      <!-- the selector followed by curly brackets; selector could be body, p, h1, etc. -->
+background: : red;   <!--  property could be text-align, center could be the value -->
+}
+</style>
