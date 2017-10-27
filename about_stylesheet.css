@@ -1,7 +1,8 @@
 
 body{     
-	color: grey; 
+	color: white; 
 	font-family: 'Indie Flower', cursive;
+	background: #4ABDAC;
 }
 
 h1{
@@ -20,4 +21,8 @@ h3{
 
 h4{
 	text-align: center;
+}
+
+img {
+	border-radius: 152px;
 }
