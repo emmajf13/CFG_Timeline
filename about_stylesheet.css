@@ -9,13 +9,13 @@ h1{
 	margin: 50px 0px 20px 0px;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 85px
+	font-size: 85px;
 }
 
 h2{
 	text-align: center;
 	font-weight: 900;
-}
+	}
 
 h3{
 	text-align: center;
@@ -26,7 +26,8 @@ h4{
 }
 
 img {
-	border-radius: 152px;
+	border-radius: 130px;
+	border-color: blue;
 }
 
 div {text-align: center;
@@ -54,17 +55,26 @@ input[type="email"]{
     }
 
  input[type="submit"] {
-      background: teal;
-      color: white;
+      background-color: white;
+      border-color: white;
       padding: 10px 95px 10px 20px;
       text-align: center; 
       margin: 15px 0px 15px 0px; 
     }
 
-article {
+form {
 	text-align: center;
+	margin: 40px 120px 40px 120px; 
+	font-size: 30px;
 }
+
+
  p {
  	font-size: 20px;
  }
+
+.resize {
+    width: 280px;
+    height: 280px;
+}
 
