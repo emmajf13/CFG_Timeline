@@ -3,3 +3,27 @@ body{
 	color: grey; 
 	font-family: 'Indie Flower', cursive;
 }
+
+div{
+	backgroud: red;
+}
+
+
+/*made a parrallax with a random image for you Eve lol delete if not helpful*/
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("images/Pattern.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
