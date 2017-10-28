@@ -1,80 +1,88 @@
-
+/*all text*/
 body{     
-	color: white; 
+	color: white/*#CCD7C5*//*#EFD2CB*/; 
 	font-family: 'Indie Flower', cursive;
-	background: #4ABDAC;
-}
+	background: #E4DBBF; /*cream*/
+	background: #DC5B21; /*orange*/
+	background: #70AB8F; /*dark green*/
+	background: #383127; /*brown*/
+	background: #4ABDAC; /*original*/
+	background: #D65780; /*pink*/
+	background: #5DB7DE;
+	background: #58A4B0;
 
+}
+/*main title*/
 h1{
-	margin: 50px 0px 20px 0px;
+	margin: 70px 0px 60px 0px;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 85px;
+	color: white;
 }
-
+/*names*/
 h2{
 	text-align: center;
 	font-weight: 900;
+	margin: 25px 0px 10px 0px;
+	font-size: 40px;
 	}
-
+/*subject*/
 h3{
 	text-align: center;
 }
-
-h4{
-	text-align: center;
-}
-
-img {
-	border-radius: 130px;
-	border-color: blue;
-}
-
-div {text-align: center;
-	margin: 15px 0px 15px 0px; 
-}
-
-h2 {
-	margin: 25px 0px 15px 0px;
-	font-size: 40px;
-}
-
-button{
-	text-align: center;
-	background-color: white;
-	border-color: grey;
-	margin: 15px 0px 15px 0px; 
-	padding: 5px 15px 5px 15px;
-	font-weight: bold;
-}
-
-input[type="email"]{
-      padding: 10px 95px 10px 20px;
-      text-align: center; 
-      margin: 15px 0px 15px 0px; 
-    }
-
- input[type="submit"] {
-      background-color: white;
-      border-color: white;
-      padding: 10px 95px 10px 20px;
-      text-align: center; 
-      margin: 15px 0px 15px 0px; 
-    }
-
-form {
-	text-align: center;
-	margin: 40px 120px 40px 120px; 
-	font-size: 30px;
-}
-
-
- p {
- 	font-size: 20px;
- }
-
+/*emmas image*/
 .resize {
     width: 280px;
     height: 280px;
+    border-radius: 130px;
+	border-color: #DAA49A;
+	border-width: 7px;
+	border-style: solid;
 }
+/*fav meme buttons*/
+div {text-align: center;
+}
+/*fav meme buttons*/
+button{
+	text-align: center;
+	background-color: white;
+	border-color: #DAA49A;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 12px 0px 0px 0px;
+	padding: 1px 12px 1px 12px;
+}
+/*fav meme answer*/
+ p {
+ 	font-size: 22px;
+ 	margin: 12px 0px 0px 0px;
+ }
+ /*we want to hear from you*/
+ h4 {
+ 	margin: 110px 0px 0px 0px; 
+ 	color: white;
+ 	font-size: 50px;
+ 	text-align:center;
+ 	font-weight: bold;
+ }
+/*whole form*/
+form {
+	text-align: center;
+	margin: 16px 200px 130px 200px; 
+	font-size: 30px;
+	color: #CCD7C5;
+}
+/*submit button*/
+input[type="submit"] {
+      background-color: white;
+      border-color: #DAA49A;
+      color: black;
+      text-align: center; 
+      margin: 15px 0px 15px 0px; 
+      padding: 0px 10px 0px 10px;
+      font-weight: bold;
+      font-size:23px;
+    }
+
 
