@@ -1,3 +1,32 @@
+/*Nav Bar*/
+nav{
+	border-bottom:solid  #DAA49A 3px;
+	font-weight: bold;
+	height: 60px;
+}
+
+.navbar-brand{
+	font-size: 25px;
+	padding: 0px 6px 0px 0px;
+}
+
+}
+.nav-item{
+	font-size: 22px;
+}
+
+input[type="search"] {
+	font-style: italic;
+	border:solid  #5DB7DE 1.5px;
+}
+
+button[type="submit"] {
+	color: black;
+	font-weight:bold;
+	border:solid   #DAA49A 1.5px;
+}
+
+
 /*all text*/
 body{     
 	color: white/*#CCD7C5*//*#EFD2CB*/; 
@@ -6,7 +35,7 @@ body{
 }
 /*main title*/
 h1{
-	  margin: 70px 0px 10px 0px;
+	  margin: 50px 0px 10px 0px;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 87px;
