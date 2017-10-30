@@ -6,10 +6,17 @@ body{
 }
 /*main title*/
 h1{
-	margin: 70px 0px 60px 0px;
+	  margin: 70px 0px 10px 0px;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 85px;
+	font-size: 87px;
+}
+.h2 {
+	  text-align: center;
+  font-weight: 900;
+ margin: 0px 0px 70px 0px;
+  font-size: 40px;
+  color:  #CCD7C5;
 }
 /*names*/
 h2{
