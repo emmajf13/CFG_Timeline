@@ -34,15 +34,19 @@ article{
   width:380px;
   height:380px;
   margin:5px 0px 5px 0px;
-  background-color:#DAA49A;
+  background-color:#5DB7DE;
   background-size:cover;
   position:relative;
   cursor:pointer;
   transition: all 0.4s ease-out;
   box-shadow: 0px 35px 50px -17px rgba(0,0,0,0.44);
   overflow:hidden;
-  color: black;
+  color: white;
   font-family: 'Indie Flower', cursive;
+   border-radius: 40px;
+  border-color: #DAA49A;
+  border-width: 7px;
+  border-style: solid;
   
 }
 .tile img
@@ -54,6 +58,7 @@ article{
   left:0;
   z-index:0;
   transition: all 0.4s ease-out;
+    border-radius: 30px;
 }
 .tile .text
 {
@@ -65,7 +70,7 @@ article{
 
 .tile h2
 {
-  font-weight:100;
+  font-weight:bolder;
   margin:20px 0 0 0;
   font-style:italic;
    transform: translateX(200px);
