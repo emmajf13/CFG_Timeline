@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="about_stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+
+  <!Nav bar>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+
+  <a class="navbar-brand" href="#">MEMELINE</a>
+ 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>  
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+      </li>
+
+          <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>  
+      </li>
+     
+    </ul>
+
+    <div class="search form-inline"
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <div>
+
+  </div>
+</nav>
+
+<!content>
+	<h1> The Faculty of Meme Historians </h1>
+  <div class = 'h2'><h2> Learn about us and get in touch!
+  </h2></div>
+
+	<div class = 'container'>
+
+		<div class='row'>
+      
+    	<div class='col-sm-4'>
+      		<div>
+      			<img src='images/name_of_file.jpg'>
+      			<h2> Victoria Stahle </h2>
+      			<h3> PhD in Meme History </h3>
+      			<button type="button" onclick='document.getElementById("demo").innerHTML = "Evil Kermit!"'>What's my faourite meme?</button>
+      			<p id="demo"></p>
+       		</div>
+  		</div>
+    
+    	<div class='col-sm-4'>
+    		<div>
+     			<img class="resize" src="images/emma_bitmoji.jpg"/> 
+     			<h2> Emma Flynn </h2>
+      			<h3> BSc in Meme Culture </h3>
+      			<button type="button" onclick='document.getElementById("demo1").innerHTML = "Success Kid!"'>What's my faourite meme?</button>
+      			<p id="demo1"></p>
+    		</div>
+ 	 	</div>
+    
+    	<div class='col-sm-4'>
+    		<div>
+     			<img src='images/name_of_file.jpg'>
+      			<h2> Eve McQuaid </h2>
+      			<h3> MSc in Pyschology of Memes </h3>
+      			<button type="button" onclick='document.getElementById("demo2").innerHTML = "Salt Bae!"'>What's my faourite meme?</button>
+      			<p id="demo2"></p>
+    		</div> 
+  		</div>
+
+  		</div>
+
+  </div>
+
+<article>
+  <h4> We want to hear from you! </h4>
+</article>
+
+<form>
+	<div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Joe Bloggs">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput2">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">What's your favourite meme?</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Evil Kermit</option>
+      <option>Overly Attached Girlfriend</option>
+      <option>Salt Bae</option>
+      <option>Success Kid</option>
+      <option>That Really Rustled my Jimmies</option>
+    </select>
+  </div>
+ 
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Share your insights into memeology or query the latest trends.</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <input type="submit">
+</form>
+
+</body>
+</html>

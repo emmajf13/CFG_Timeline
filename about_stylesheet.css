@@ -1,0 +1,133 @@
+/*Nav Bar*/
+nav{
+	border-bottom:solid  #DAA49A 3px;
+	font-weight: bold;
+	height: 60px;
+}
+
+.navbar-brand{
+	font-size: 25px;
+	padding: 0px 6px 0px 0px;
+}
+
+}
+.nav-item{
+	font-size: 22px;
+}
+
+input[type="search"] {
+	font-style: italic;
+	border:solid  #5DB7DE 1.5px;
+}
+
+button[type="submit"] {
+	color: black;
+	font-weight:bold;
+	border:solid   #DAA49A 1.5px;
+}
+
+
+/*all text*/
+body{     
+	color: white/*#CCD7C5*//*#EFD2CB*/; 
+	font-family: 'Indie Flower', cursive;
+	background: #5DB7DE; /*colour being used*/
+}
+/*main title*/
+h1{
+	  margin: 50px 0px 10px 0px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 87px;
+}
+.h2 {
+	  text-align: center;
+  font-weight: 900;
+ margin: 0px 0px 70px 0px;
+  font-size: 40px;
+  color:  #CCD7C5;
+}
+/*names*/
+h2{
+	text-align: center;
+	font-weight: 900;
+	margin: 25px 0px 10px 0px;
+	font-size: 40px;
+	}
+/*subject*/
+h3{
+	text-align: center;
+}
+/*emmas image*/
+.resize {
+    width: 280px;
+    height: 280px;
+    border-radius: 130px;
+	border-color: #DAA49A;
+	border-width: 7px;
+	border-style: solid;
+}
+/*fav meme buttons*/
+div {text-align: center;
+}
+/*fav meme buttons*/
+button{
+	text-align: center;
+	background-color: white;
+	border-color: #DAA49A;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 12px 0px 0px 0px;
+	padding: 1px 12px 1px 12px;
+}
+/*fav meme answer*/
+ p {
+ 	font-size: 20px;
+ 	margin: 15px 0px 0px 0px;
+ 	color:white;
+ 	font-weight:bold;
+ 	
+ }
+ /*we want to hear from you*/
+ h4 {
+ 	margin: 110px 0px 0px 0px; 
+ 	color: white;
+ 	font-size: 50px;
+ 	text-align:center;
+ 	font-weight: bold;
+ }
+/*whole form*/
+form {
+	text-align: center;
+	margin: 16px 200px 130px 200px; 
+	font-size: 30px;
+	color: #CCD7C5;
+}
+input[type="text"]{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+input[type="email"]{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+.form-control{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+/*submit button*/
+input[type="submit"] {
+      background-color: white;
+      border-color: #DAA49A;
+      color: black;
+      text-align: center; 
+      margin: 15px 0px 15px 0px; 
+      padding: 0px 10px 0px 10px;
+      font-weight: bold;
+      font-size:23px;
+    }
+
+
