@@ -1,3 +1,52 @@
+/*Nav Bar*/
+nav{
+  border-bottom:solid  #DAA49A 3px;
+  font-weight: bold;
+  height: 57px;
+  }
+
+  header{
+  background-color: white;
+  height: 57px;
+  width:100%;
+}
+
+
+
+/* Makes Nav Bar stick */
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99;
+}
+
+.navbar-brand{
+  font-size:26px;
+  padding: 0px 5px 0px 9px;
+}
+
+.nav-item{
+  font-size: 24px;
+}
+
+input[type="search"] {
+  font-style: italic;
+  border:solid  #5DB7DE 1.5px;
+}
+
+button[type="submit"] {
+  color: black;
+  font-weight:bold;
+  border:solid   #DAA49A 1.5px;
+  background: white;
+}
+
+
+
+
+
 body{     
 	color: white/*#CCD7C5*//*#EFD2CB*/; 
 	font-family: 'Indie Flower', cursive;
@@ -5,7 +54,7 @@ body{
 }
 
 h1{
-  margin: 50px 0px 8px 0px;
+  margin: 70px 0px 8px 0px;
   text-align: center;
   font-weight: bolder;
   font-size: 95px;
@@ -15,7 +64,7 @@ h1{
 article{
   text-align: center;
   font-weight: 900;
-  margin: 0px 0px 40px 0px;
+  margin: 0px 0px 70px 0px;
   font-size: 40px;
   color:  #CCD7C5;
   }
@@ -122,4 +171,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .container{
     margin: auto auto 130px auto;
+}
+
+footer{
+  background-color: white;
+    border-top:solid  #DAA49A 3px;
+  height: 170px;
+  width:100%;
 }
