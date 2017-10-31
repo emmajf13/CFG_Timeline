@@ -2,9 +2,7 @@
 <html>
 
 <head>
-	<a href="index.html">Home</a>
-	<a href="gallery.html">Gallery</a>
-    <a href="about.html">About</a>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link href='bootstrap-4.0.0-beta.2/css/bootstrap.css' rel='stylesheet'>
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
@@ -13,15 +11,43 @@
 
 
 <body>
+<header></header>
 
-<ul class = "navbar">
-  <li><a class="active" href="#home">Home</a></li>
-   <li><a href="about.html">About</a></li>
-     <li><a href="gallery.html">Gallery</a></li>
-  <li><a href="#news">News</a></li>
+<!Nav bar>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(225, 225, 225,0.3);">
 
+  <a class="navbar-brand" href="#">MEMELINE</a>
  
-</ul>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>  
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+          <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>  
+      </li>
+     
+    </ul>
+
+    <div class="search form-inline"
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <div>
+
+  </div>
+</nav>
+
+
+
+
 
 	<!made a parrallax with a random image for you Eve lol delete if not helpful>
 <div class="parallax">
@@ -47,7 +73,9 @@
 </div>
 
 
-<!--content to use
+
+
+
 
 
 <div class="timeline">
@@ -77,7 +105,7 @@
 -->
 
 
-	<!---timeline test --->
+	<!---timeline test -->
 
 	<div class="container">
 	    <div class="page-header">
@@ -179,6 +207,8 @@
 		</div>
 	</div>
 </div>
+
+<footer></footer>
 
 </body>
 </html>
