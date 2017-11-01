@@ -83,6 +83,15 @@ h3{
 	border-width: 7px;
 	border-style: solid;
 }
+
+.resize2 {
+    width: 280px;
+    height: 280px;
+    border-radius: 130px;
+	border-color: #DAA49A;
+	border-width: 7px;
+	border-style: solid;
+}
 /*fav meme buttons*/
 div {text-align: center;
 }
