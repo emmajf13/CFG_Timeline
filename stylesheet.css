@@ -249,3 +249,24 @@ margin-right: auto;
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+.timeline-title {
+  font-size: 20px;
+}
+
+.image-right{
+  width: 46%;
+  height: auto;
+  float: right;
+  padding: 20px;
+  position: relative;
+  image-resolution: 50px;
+}
+.image-left{
+  width: 16%;
+  height: auto;
+  float: left;
+  padding: 10px;
+  position: relative;
+  image-resolution: 50px;
+}
