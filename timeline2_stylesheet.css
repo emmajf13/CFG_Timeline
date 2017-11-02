@@ -1,0 +1,421 @@
+/*Nav Bar*/
+nav{
+  border-bottom:solid  #DAA49A 3px;
+  font-weight: bold;
+  height: 57px;
+  }
+
+  header{
+  background-color: white;
+  height: 57px;
+  width: 100%;
+}
+
+
+/* Makes Nav Bar stick */
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99;
+}
+
+.navbar-brand{
+  font-size:26px;
+  padding: 0px 5px 0px 9px;
+}
+
+.nav-item{
+  font-size: 24px;
+}
+
+input[type="search"] {
+  font-style: italic;
+  border:solid  #5DB7DE 1.5px;
+}
+
+button[type="submit"] {
+  color: black;
+  font-weight:bold;
+  border:solid   #DAA49A 1.5px;
+  background: white;
+}
+
+
+
+/* Main Text */
+body{     
+	color: white/*#CCD7C5*//*#EFD2CB*/; 
+	font-family: 'Indie Flower', cursive;
+	background: #5DB7DE; /*colour being used*/
+}
+
+h1{
+  margin: 90px 0px 80px 0px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 110px;
+}
+
+.definition{
+  color: white;
+  text-align: center;
+  font-weight:bold;
+}
+
+.definition1{
+   color: #CCD7C5;
+    font-size: 35px;
+}
+
+.definition2{
+   color: white;
+    font-size: 23px;
+    padding: 0px 280px 60px 280px;
+}
+
+
+h2{
+  text-align: center;
+  font-weight: 900;
+  margin: 0px 0px 10px 0px;
+  font-size: 35px;
+  color:  #CCD7C5;
+  }
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  margin: 0px auto;
+  margin-top: 90px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 3150px;
+  background-color: #DAA49A;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+   z-index: 98;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  margin-left: 3px; 
+
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: white;
+  border: 4px solid #DAA49A;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+/* Place the container to the left */
+.left {
+  left: -24.7%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 25.6%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content1{
+  color: black;
+}
+
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap
+{
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
+  margin: 10px 0px 0 16px;
+}
+
+
+.tile
+{
+  width:460px;
+  height:380px;
+  background-color:#5DB7DE;
+  background-size:cover;
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 50px -17px rgba(0,0,0,0.44);
+  overflow:hidden;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+   border-radius: 40px;
+  border-color: #DAA49A;
+  border-width: 7px;
+  border-style: solid;
+  
+}
+.tile img
+{
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+    border-radius: 30px;
+}
+
+.tile p
+{
+  font-weight:300;
+  padding: 10px 10px 10px 10px;
+   font-size: 25px;
+  line-height: 29px;
+/*   opacity:0; */
+  transform: translateX(-200px);
+  transition-delay: 0.2s;  
+
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 20px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
+}
+
+.tile:hover span
+{
+  opacity:1;
+  transform:translateY(0px);
+}
+
+@media (max-width: 1000px) {
+  .wrap {
+   flex-direction: column;
+    width:400px;
+  }
+}
+
+.container{
+    margin: auto auto 130px auto;
+}
+
+    
+
+
+
+
+footer{
+  background-color: white;
+    border-top:solid  #DAA49A 3px;
+  height: 170px;
+
+}
+
+.footer{
+  color: #CCD7C5;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0px 0px 0px;
+   text-align: center;
+}
+
+.icons{
+  text-align:center;
+  padding: 32px 0 0 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat {
+    background: #fffc00;
+    color: white;
+}
+
+.fa-google {
+    background: #db3236;
+    color: white;
+}
+
+.fa-youtube {
+    background: white;
+    color: white;
+width:10px;}
+
+.fa{
+    border-radius: 40%;
+}
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("images/starrysky.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
