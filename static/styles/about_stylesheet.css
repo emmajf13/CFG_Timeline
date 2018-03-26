@@ -1,0 +1,226 @@
+/*Nav Bar*/
+nav{
+	border-bottom:solid  #DAA49A 3px;
+	font-weight: bold;
+	height: 57px;
+	}
+
+header{
+	background-color: white;
+	height: 57px;
+	width:100%;
+}
+
+
+/* Makes Nav Bar stick */
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99;
+}
+
+.navbar-brand{
+	font-size:26px;
+	padding: 0px 5px 0px 9px;
+}
+
+.nav-item{
+	font-size: 24px;
+}
+
+input[type="search"] {
+	font-style: italic;
+	border:solid  #5DB7DE 1.5px;
+}
+
+button[type="submit"] {
+	color: black;
+	font-weight:bold;
+	border:solid   #DAA49A 1.5px;
+	background: white;
+}
+
+
+/*all text*/
+body{     
+	color: white/*#CCD7C5*//*#EFD2CB*/; 
+	font-family: 'Indie Flower', cursive;
+	background: #5DB7DE; /*colour being used*/
+}
+/*main title*/
+h1{
+	  margin: 80px 0px 0px 0px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 200px;
+}
+.h2 { 
+	  text-align: center;
+  font-weight: 900;
+ margin: 0px 0px 85px 0px;
+  font-size: 40px;
+  color:  #CCD7C5;
+}
+/*names*/
+h2{
+	text-align: center;
+	font-weight: 900;
+	margin: 35px 0px 10px 0px;
+	font-size: 40px;
+	}
+/*subject*/
+h3{
+	text-align: center;
+}
+/*emmas image*/
+.resize {
+    width: 280px;
+    height: 280px;
+    border-radius: 130px;
+	border-color: #DAA49A;
+	border-width: 7px;
+	border-style: solid;
+}
+
+.resize2 {
+    width: 280px;
+    height: 280px;
+    border-radius: 130px;
+	border-color: #DAA49A;
+	border-width: 7px;
+	border-style: solid;
+}
+/*fav meme buttons*/
+div {text-align: center;
+}
+/*fav meme buttons*/
+button{
+	text-align: center;
+	background-color: white;
+	border-color: #DAA49A;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 12px 0px 0px 0px;
+	padding: 1px 12px 1px 12px;
+}
+/*fav meme answer*/
+ p {
+ 	font-size: 20px;
+ 	margin: 15px 0px 0px 0px;
+ 	color:white;
+ 	font-weight:bold;
+ 	
+ }
+ /*we want to hear from you*/
+ h4 {
+ 	margin: 110px 0px 0px 0px; 
+ 	color: white;
+ 	font-size: 50px;
+ 	text-align:center;
+ 	font-weight: bold;
+ }
+/*whole form*/
+form {
+	text-align: center;
+	margin: 16px 200px 80px 200px; 
+	font-size: 30px;
+	color: #CCD7C5;
+}
+input[type="text"]{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+input[type="email"]{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+.form-control{
+	border-color: #DAA49A;
+	border-width: 1.5px;
+	border-style: solid;
+}
+/*submit button*/
+input[type="submit"] {
+      background-color: white;
+      border-color: #DAA49A;
+      color: black;
+      text-align: center; 
+      margin: 15px 0px 15px 0px; 
+      padding: 0px 10px 0px 10px;
+      font-weight: bold;
+      font-size:23px;
+    }
+
+
+
+
+
+footer{
+	background-color: white;
+		border-top:solid  #DAA49A 3px;
+	height: 170px;
+	width:100%;
+}
+
+.footer{
+	color: #CCD7C5;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0px 0px 0px;
+}
+
+.icons{
+	text-align:center;
+	padding: 32px 0 0 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat {
+    background: #fffc00;
+    color: white;
+}
+
+.fa-google {
+    background: #db3236;
+    color: white;
+}
+
+.fa-youtube {
+    background: white;
+    color: white;
+width:10px;}
+
+.fa{
+	  border-radius: 40%;
+}

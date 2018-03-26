@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='scripts/bootstrap/dist/css/bootstrap.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/about_stylesheet.css') }}">
+
+
+
+</head>
+<body>
+  <header> </header>
+
+  <!Nav bar>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(225, 225, 225,0.3);">
+
+  <a class="navbar-brand" href="#">MEMELINE</a>
+ 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('index') }}">Home</a>  
+      </li>
+
+      
+     
+
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('about') }}">About<span class="sr-only">(current)</span></a>
+      </li>
+
+          <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('gallery') }}">Gallery</a>  
+      </li>
+
+                <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('trends') }}">News</a>  
+      </li>
+     
+
+          <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('generate') }}">Make Memes!</a>  
+      </li>
+     
+
+    </ul>
+
+    <div class="search form-inline"
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <div>
+
+  </div>
+</nav>
+
+<!content>
+	<h1> The Faculty of Meme Historians </h1>
+  <div class = 'h2'><h2> Learn about us and get in touch!
+  </h2></div>
+
+	<div class = 'container'>
+
+		<div class='row'>
+      
+    	<div class='col-sm-4'>
+      		<div>
+      	           <img class="resize" src="/static/images/bitmoji3.png"> 
+      			<h2> Victoria Stahle </h2>
+      			<h3> PhD in Meme History </h3>
+      			<button type="button" onclick='document.getElementById("demo").innerHTML = "Evil Kermit!"'>What's my faourite meme?</button>
+      			<p id="demo"></p>
+       		</div>
+  		</div>
+    
+    	<div class='col-sm-4'>
+    		<div>
+     			<img class="resize" src="/static/images/emma_bitmoji.jpg"> 
+     			<h2> Emma Flynn </h2>
+      			<h3> BSc in Meme Culture </h3>
+      			<button type="button" onclick='document.getElementById("demo1").innerHTML = "Success Kid!"'>What's my faourite meme?</button>
+      			<p id="demo1"></p>
+    		</div>
+ 	 	</div>
+    
+    	<div class='col-sm-4'>
+    		<div>
+
+     			<img class="resize" src='/static/images/bitmoji_2.png'>
+     	
+      			<h2> Eve McQuaid </h2>
+      			<h3> MSc in Pyschology of Memes </h3>
+      			<button type="button" onclick='document.getElementById("demo2").innerHTML = "Salt Bae!"'>What's my faourite meme?</button>
+      			<p id="demo2"></p>
+    		</div> 
+  		</div>
+
+  		</div>
+
+  </div>
+
+<article>
+  <h4> We want to hear from you! </h4>
+</article>
+
+ 
+
+<form action="/signup" method="post">
+  <div class="form-group"> 
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Joe Bloggs">
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleFormControlInput2">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+  </div>
+
+
+<div class="form-group">
+    <label for="exampleFormControlSelect1">What's your favourite meme?</label>
+    <select class="form-control" id="exampleFormControlSelect1" name="favourite_meme">
+      <option>Cash Me Outside</option>
+      <option>Damn Daniel</option>
+      <option>Evil Kermit</option>
+      <option>Roll Safe</option>
+      <option>Salt Bae</option>
+    </select>
+  </div>
+
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Share your insights into memeology or query the latest trends.</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+</div>
+
+  <input type="submit" value="Submit"></input>
+  </form>
+
+<footer>
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<div class="icons">
+<a href="https://www.facebook.com/memes/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/search?q=%23MEMES" class="fa fa-twitter"></a>
+<a href="https://www.snapchat.com/" class="fa fa-snapchat"></a>
+<a href="https://www.google.co.uk/search?q=memes&oq=memes&aqs=chrome..69i57j69i60j0j69i60j0l2.1040j0j4&sourceid=chrome&ie=UTF-8" class="fa fa-google"></a>
+</div>
+
+  <div class ="footer">
+  <h7>© 2017 Designed by Victoria Stahle, Emma Flynn and Eve McQuaid</h7>
+</div>
+
+
+</footer>
+</body>
+</html>
